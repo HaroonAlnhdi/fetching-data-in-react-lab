@@ -25,7 +25,7 @@ const App = () => {
 
   return (
     <main>
-      <h1>Starship Explorer</h1>
+      <h1>Star Wars API</h1>
       <StarshipSearch onSearch={handleSearch} />
       {starships.length === 0 ? (
         <p>Loading...</p>
