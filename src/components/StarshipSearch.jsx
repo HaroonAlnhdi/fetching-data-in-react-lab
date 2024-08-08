@@ -13,7 +13,7 @@ const StarshipSearch = ({ onSearch }) => {
         <div>
             <h2>Search</h2>
             <form onSubmit={handleSearch}>
-                <label htmlFor="searchQuery">Search starships:</label>
+                <label htmlFor="searchQuery">Search Term:</label>
                 <input
                     id="searchQuery"
                     type="text"
