@@ -10,7 +10,7 @@ const App = () => {
   useEffect(() => {
     const fetchStarships = async () => {
       const data = await showStarships();
-      setStarships(data);
+      setStarships(data.results || []);
       setFilteredStarships(data);
     };
     fetchStarships();
